@@ -17,4 +17,5 @@
 }
 .resizableContainer textarea {
   overflow: auto;
+  max-width: 100%;
 }
