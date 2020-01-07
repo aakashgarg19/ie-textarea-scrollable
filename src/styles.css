@@ -1,0 +1,20 @@
+/* Add application styles & imports to this file! */
+.resizableContainer::after {
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALUlEQVR42mNgwAH279//H4QZyFYAAv///5fBqQurCQQVEHQMVjaMAQQc2BQAABXMU79BvB5bAAAAAElFTkSuQmCC");
+  border: 2px solid transparent;
+  bottom: 15%;
+  cursor: se-resize;
+  height: 8px;
+  position: absolute;
+  right: 0px;
+  width: 8px;
+}
+
+.resizableContainer {
+  position: relative;
+  height:1px;
+  cursor: se-resize;
+}
+.resizableContainer textarea {
+  overflow: auto;
+}
